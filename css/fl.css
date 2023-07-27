@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fl_body {
+    width: 100vw;
+    height: 217vw;
+}
+
+.fl_body_02 {
+    margin: auto;
+    width: 100vw;
+    height: 217vw;
+    background-color: #21272e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fl_top {
+    margin-right: 50vw;
+    width: 52vw;
+    height: 8vw;
+    color: azure;
+    margin-top: 13vw;
+    margin-left: 9vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fl_top>div {
+    width: 61vw;
+    height: 6vw;
+    font-size: 6vw;
+}
+
+.fl_top h3 {
+    width: 20vw;
+    height: 6vw;
+    font-size: 6vw;
+}
+
+.fl_suo {
+    width: 87vw;
+    height: 13vw;
+    background-color: #545657eb;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fl_suo>div {
+    font-size: 7vw;
+}
+
+.fl_suo input {
+    width: 62vw;
+    height: 7vw;
+    background-color: #545657eb;
+    border: none;
+    font-size: 5vw;
+}
+
+.fl_main {
+    width: 100vw;
+    height: 171vw;
+}
+
+.fl_card>div {
+    display: none;
+}
+
+.fl_card>.fl_show {
+    display: block;
+}
+
+.fl_list {
+    display: flex;
+    justify-content: space-around;
+    color: #959391;
+    border-bottom: 1px solid #4c4c4c;
+    width: 100vw;
+    height: 8vw;
+    font-size: 4vw;
+    align-items: center;
+}
+
+.fl_list .fl_active {
+    border-bottom: 1px solid #f6847a;
+    color: #dddcdb;
+}
+
+#fl_all {
+    height: 167vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fl_mage {
+    width: 98vw;
+    height: 68vw;
+    border-bottom: 1px solid #515151;
+}
+
+.fl_mage .fl_magetop {
+    width: 90vw;
+    height: 9vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: azure;
+    align-items: center;
+}
+.fl_mage  .fl_magemain{
+    width: 97vw;
+    height: 68vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.fl_mage  .fl_magemain div{
+    width: 29vw;
+    height: 65vw;
+    color: azure;
+}
+.fl_mage  .fl_magemain div img{
+    width: 26vw;
+	height: 39vw;
+}
+.fl_rm {
+    width: 98vw;
+    height: 68vw;
+}
+.fl_mage  .fl_magemain div h5{
+    width: 30vw;
+    height: 6vw;
+    font-size: 4vw;
+}
+.fl_mage  .fl_magemain div p{
+    width: 30vw;
+    height: 2vw;
+    font-size: 2vw;
+}

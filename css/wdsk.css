@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wdsk_body {
+    width: 100vw;
+    height: 217vw;
+}
+
+.wdsk_top {
+    width: 49vw;
+    height: 6vw;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14vw;
+    justify-self: end;
+    margin-left: 40vw;
+}
+
+.wdsk_top h3 {
+    width: 20vw;
+    height: 6vw;
+    font-size: 6vw;
+    line-height: 6vw;
+}
+
+.wdsk_body_02 {
+    margin: auto;
+    width: 100vw;
+    height: 217vw;
+    background-color: #21272e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wdsk_top .wdsk_color {
+    width: 5vw;
+    height: 4vw;
+    font-size: 6vw;
+}
+
+.wdsk_concter {
+    width: 93vw;
+    height: 62vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wdsk_concter .wdsk_contop {
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wdsk_concter .wdsk_contop span {
+    width: 21vw;
+    height: 3vw;
+    font-size: 3vw;
+    color: azure;
+}
+
+.wdsk_concter .wdsk_contop h3 {
+    width: 20vw;
+    height: 5vw;
+    font-size: 5vw;
+    color: azure;
+}
+
+.wdsk_concter .wdsk_tupian {
+    width: 100vw;
+    height: 53vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.wdsk_tupian .wdsk_conmain {
+    width: 30vw;
+    height: 53vw;
+}
+
+.wdsk_tupian .wdsk_conmain img {
+    width: 26vw;
+    height: 39vw;
+}
+
+.wdsk_tupian .wdsk_conmain h5 {
+    color: azure;
+    width: 24vw;
+    height: 6vw;
+    font-size: 3vw;
+}
+
+.wdsk_tupian .wdsk_conmain p {
+    color: azure;
+    font-size: 3vw;
+}
+
+.wdsk_main {
+    width: 92vw;
+    height: 113vw;
+}
+
+.wdsk_main .wdsk_maintop {
+    width: 92vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+
+.wdsk_main .wdsk_maintop h3 {
+    width: 20vw;
+    height: 6vw;
+    font-size: 6vw;
+    color: azure;
+}
+
+.wdsk_main .wdsk_maintop span {
+    width: 17vw;
+    height: 3vw;
+    font-size: 3vw;
+}
+
+.wdsk_main .wdsk_mainimg {
+    width: 92vw;
+    height: 103vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wdsk_main .wdsk_mainimg div {
+    width: 30vw;
+    height: 53vw;
+    color: azure;
+}
+
+.wdsk_main .wdsk_mainimg div img {
+    width: 26vw;
+    height: 39vw;
+}
+
+.wdsk_main .wdsk_mainimg div h5 {
+    width: 21vw;
+    height: 6vw;
+    font-size: 4vw;
+}
+
+.wdsk_main .wdsk_mainimg div p {
+    width: 22vw;
+    height: 2vw;
+    font-size: 3vw;
+}

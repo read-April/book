@@ -1,0 +1,461 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: #21272e;
+}
+#one {
+  margin: auto;
+}
+.bgg {
+  margin: auto;
+  margin-top: 5vw;
+  margin-bottom: 14vw;
+
+  width: 87vw;
+  height: 33vw;
+  background-color: #2b323b;
+  box-shadow: 0vw 4vw 8vw 0vw rgba(17, 21, 26, 0.1);
+  border-radius: 4vw;
+  display: flex;
+}
+.top-bar {
+  color: #fff;
+  font-size: 6vw;
+  margin: auto;
+  width: 88vw;
+  height: 20vw;
+  /* background-color: rgb(43, 150, 243); */
+  text-align: center;
+  line-height: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.top-bar > div > img {
+  width: 5vw;
+  height: 4vw;
+}
+.header {
+  margin: auto;
+  width: 100%;
+  height: 8vw;
+  /* background-color: #ffffff; */
+}
+
+.bgg > div > img {
+  position: relative;
+  top: -4vw;
+  margin-left: 4vw;
+  width: 22vw;
+  height: 33vw;
+}
+
+.you {
+  width: 65vw;
+  height: 30vw;
+
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+  padding-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #000000; */
+}
+.yy {
+  display: flex;
+  align-items: center;
+}
+.yy > div {
+  display: flex;
+  align-items: center;
+}
+
+.ziti {
+  margin-top: 2vw;
+  padding-bottom: 0vw;
+  width: 34vw;
+  height: 5vw;
+  font-family: PingFang-SC-Bold;
+  font-size: 4vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+  /* background-color: #000000; */
+}
+
+.ziti1 {
+  min-width: 126px;
+  width: 40vw;
+  height: 4vw;
+  font-family: PingFang-SC-Medium;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #5d637c;
+}
+
+.ziti2 {
+  margin-top: 4vw;
+  width: 45vw;
+  height: 1px;
+  border: solid 0vw #969baf;
+  opacity: 0.2;
+  background-color: #969baf;
+}
+.ziti3 {
+  padding-top: 1vw;
+  width: 51vw;
+  height: 18vw;
+  min-height: 43px;
+  font-family: PingFang-SC-Medium;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #868dab;
+  word-break: break-all;
+  /*将div变成弹性伸缩盒子模型
+			  display:box为display:flex的前身
+			  需要加浏览器私有属性来支持
+			*/
+  display: -webkit-box;
+  /*设置或检索伸缩盒的子元素的排列方式
+			  目前所有主流浏览器都不支持box-orient属性。
+			  Firefox通过私有属性- MOZ-box-orient支持。
+			  Safari, Opera, 和 Chrome通过
+			  私有属性 -webkit-box-orient 支持.
+			*/
+  /*值为vertical表示从顶部向底部垂直布置子元素*/
+  -webkit-box-orient: vertical;
+  /*设置要出现省略号的行数
+			  下面的3表示第三行出现省略号
+			*/
+  -webkit-line-clamp: 2;
+  /*设置一个行高，更容易控制行数
+			  行高/元素高度=设置出现省略号的行数
+			  然后超出的部分隐藏起来  
+			*
+  /*超出高度的部分都隐藏起来
+			  目的主要是将设置了省略号那一行后面的内容都隐藏起来  
+			*/
+  overflow-y: hidden;
+}
+.wdsk_dibu1 {
+  width: 100%;
+  height: 21vw;
+  background-color: #21272e;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0vw -1vw 5vw 0vw #1d2328;
+}
+.wdsk_dibu1 > div {
+  font-size: 8vw;
+}
+
+#nocheck1 {
+  color: #71768c;
+}
+#check1 {
+  color: #fb6894;
+}
+#more {
+  color: #71768c;
+  width: 4vw;
+  height: 1vw;
+  font-size: 5vw;
+  margin-left: 10vw;
+}
+
+#zi2 {
+  font-size: 6vw;
+  margin-right: 3vw;
+}
+#zi23 {
+  color: #71768c;
+  font-size: 6vw;
+  margin-right: 3vw;
+}
+.zi22 {
+  margin-right: 3vw;
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.pic {
+  margin: auto;
+}
+.pic2 > div {
+  /* padding-top: 6vw; */
+  display: flex;
+  justify-content: center;
+}
+.pic2 > div > IMG {
+  width: 52vw;
+  height: 77vw;
+}
+.downwz {
+  margin: auto;
+  margin-top: 3vw;
+  width: 42vw;
+  height: 6vw;
+  font-size: 6vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+}
+.downwzZ {
+  margin: auto;
+  margin-top: 3vw;
+  width: 15vw;
+  height: 5vw;
+  font-family: PingFang-SC-Medium;
+  font-size: 5vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #656a7b;
+}
+.path-3-copy-21 {
+  margin: auto;
+  margin-top: 8vw;
+  width: 53vw;
+  height: 1vw;
+  background-color: #2e3640;
+}
+.Avatar {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+}
+.Avatar > img {
+  margin: 0vw 1vw;
+  width: 9vw;
+  height: 9vw;
+}
+.swq {
+  min-width: 75px;
+  margin: auto;
+  margin-top: 3vw;
+  width: 20vw;
+  height: 3vw;
+  font-family: MicrosoftYaHei;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #a2a8ba;
+}
+.rectangle181 {
+  position: relative;
+  right: 0px;
+  top: -34vw;
+  width: 35vw;
+  height: 11vw;
+  background-color: #15191d;
+  box-shadow: 3vw 1vw 5vw 0vw #22282d;
+  border-top-left-radius: 25vw;
+  border-bottom-left-radius: 25vw;
+  display: flex;
+  align-items: center;
+}
+.mask1 {
+  width: 9vw;
+  height: 9vw;
+  background-color: #d8d8d8;
+  border-radius: 15vw;
+  margin-left: 1vw;
+}
+.yyy {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+  margin-top: -1vw;
+  justify-content: space-between;
+}
+.yyy1 {
+  min-width: 38px;
+  width: 10vw;
+  height: 3vw;
+  font-family: PingFang-SC-Medium;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+}
+.yyy2 {
+  margin-top: 1vw;
+  min-width: 27px;
+  width: 7vw;
+  height: 3vw;
+  font-family: PingFang-SC-Medium;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #707483;
+}
+
+.sige {
+  width: 82vw;
+  height: 130vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sige > div {
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sige > div > img {
+  width: 36vw;
+  height: 53vw;
+}
+
+h1 {
+  text-align: center;
+  width: 28vw;
+  height: 4vw;
+  font-family: PingFang-SC-Bold;
+  font-size: 6vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #dcdeea;
+}
+.h11 {
+  margin-top: 2vw;
+  text-align: center;
+  color: #ccc;
+  font-size: 4vw;
+  width: 28vw;
+  height: 4vw;
+  font-family: PingFang-SC-Bold;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+}
+
+.szzz {
+  /* background-color: #969baf; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.szzz > .wai {
+  margin-top: 6vw;
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 94vw;
+  height: 12vw;
+}
+h2 {
+  width: 41vw;
+  height: 5vw;
+  font-family: PingFang-SC-Medium;
+  font-size: 5vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #dcdeea;
+}
+.linee {
+  margin-top: 4vw;
+  width: 93vw;
+  height: 1px;
+  border: solid 1px #969baf;
+  opacity: 0.2;
+  background-color: #969baf;
+}
+.wdsk_dibu11 {
+  width: 100%;
+  height: 21vw;
+  background-color: #2e363f;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0vw -1vw 5vw 0vw #1d2328;
+}
+.szzz1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#zty {
+  margin-right: 10vw;
+  color: #969baf;
+  font-size: 5vw;
+}
+
+#zi3 {
+  margin-top: 2px;
+  font-size: 10vw;
+}
+h3 {
+  margin-top: 2vw;
+  margin-left: 22vw;
+  font-size: 3vw;
+  color: #dcdeea;
+}
+
+.switch-button {
+  display: none; /*隐藏表单元素*/
+}
+.switch-button + label {
+  /*+选择器选择紧跟“+”左边选择器的第一个元素*/
+  display: inline-block;
+  position: relative;
+  right: 9vw;
+  transition: all 0.3s;
+  width: 14vw;
+  height: 8vw;
+  border: 1px solid #999;
+  border-radius: 15vw;
+  background-color: #ccc;
+}
+.switch-button:checked + label {
+  /*选中表单后的样式，:checked表示checkbox被选中后的状态*/
+  background-color: #fb6894;
+}
+.switch-button + label::before {
+  /*使用伪元素生成一个按钮*/
+  content: "";
+  display: block;
+  height: 7vw;
+  width: 7vw;
+  position: relative;
+  border-radius: 15vw;
+  left: 1px;
+  top: 1px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+}
+.switch-button:checked + label::before {
+  /*checkbox选中时按钮的样式*/
+  left: 7vw;
+  transition: all 0.2s linear;
+}
+.z1z {
+  display: flex;
+  justify-content: end;
+}

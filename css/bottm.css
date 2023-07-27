@@ -1,0 +1,28 @@
+a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.wdsk_dibu {
+    width: 100vw;
+    height: 12vw;
+    background-color: #434953;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wdsk_dibu>div {
+    font-size: 6vw;
+}
+
+.wdsk_dibu>div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#check {
+    color: rgb(199 22 22);
+}

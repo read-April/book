@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>引字体图标</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<style type="text/css">
+		.show{
+			width:150px; 
+			height: 100px; 
+			float: left; 
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="test"></div>
+
+	<script type="text/javascript" src="./fontClass.js"></script>
+
+	<script type="text/javascript">
+		console.log(fontCalssArr);
+		var str = '';
+		for (var i = 0, len = fontCalssArr.length; i < len; i++) {
+			var item = fontCalssArr[i];
+			str += `<div class="show">
+						<span class="fa ${item}"></span>
+						<br/>
+						fa ${item}
+					</div>`;
+		}
+		document.getElementById('test').innerHTML = str;
+	</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+
+
+看图标的网址：
+
+阿里 https://www.iconfont.cn/
+
+http://www.fontawesome.com.cn/faicons/
+文件夹及内容拷贝正确
+1、引入css的样式表
+2、打开网址，使用时 打开控制台，选中自己要用的字体图标，然后把element里的类名复制出来
+3、需要修改字体图片的样式，可以自己添加类名，写样式

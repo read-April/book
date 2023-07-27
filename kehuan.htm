@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/kehuan.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script src="./js/Vue.js"></script>
+    <title>科幻分类</title>
+    <style>
+        .top-bar>a img {
+            display: block;
+            width: 5vw !important;
+            height: 4vw !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <div class="header"></div>
+        <div class="top-bar">
+            <div>
+                <a href="fl.htm">
+                    <img src="./images/z.png" alt="" id="z">
+                </a>
+            </div>
+            <div>科幻</div>
+            <div>
+                <img src="./images/y.png" alt="">
+            </div>
+        </div>
+        <div v-for='item in arr'>
+            <div class="bgg">
+                <div class="zuo">
+                    <img :src="item.pic">
+                </div>
+                <div class="you">
+                    <div class="yy">
+                        <div class="ziti">{{item.book}}</div>
+                        <div class="iconfont" id="more">&#xe73a;</div>
+                    </div>
+                    <div class="ziti1">{{item.zz}}</div>
+                    <div class="ziti2"></div>
+                    <div class="ziti3">{{item.xs}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    let app = new Vue({
+        el: '#one',
+        data() {
+            return {
+                arr: [
+                    { pic: './images/1.png', book: '三体：死神永生', zz: '作者：刘慈心', xs: '刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...' },
+                    { pic: './images/2.png', book: '未来简史', zz: '作者：尤瓦尔• 郝拉利', xs: '讲述了一段有关未来50年令人难以置信的故事。他剖析了各国...' },
+                    { pic: './images/3.png', book: '银河帝国', zz: '作者：艾萨克·阿西莫夫', xs: '在机器人的帮助下，人类迅速掌握了改造外星球的技术，开启了恢...' },
+                    { pic: './images/4.png', book: '海底两万里', zz: '作者：儒勒·凡尔纳', xs: '讲述了博物学家阿龙纳斯、其仆人康塞尔和鱼叉手尼德·兰一起随鹦鹉...' },
+                    { pic: './images/5.png', book: '神秘岛', zz: '作者：儒尔·凡尔纳', xs: '讲述了在美国南北战争时期，五名美国北军俘虏乘坐气球逃离里士满...' },
+                ],
+            };
+        },
+        methods: {
+        },
+    })
+    let dianji = document.querySelector('#z');
+    console.log(dianji);
+    dianji.onclick = function () {
+        window.location.href = "./ts1.htm";
+    }
+</script>
+
+</html>

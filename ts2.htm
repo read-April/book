@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/kehuan.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script src="./js/Vue.js"></script>
+    <link rel="stylesheet" href="./css/bottm.css">
+    <title>探索2</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="header"></div>
+        <div class="top-bar">
+            <div class="zi22">
+            </div>
+            <div>探索</div>
+            <div class="zi22">
+                <div class="iconfont" id="zi2">
+                    &#xe670;
+                </div>
+                <div class="iconfont" id="zi23">
+                    &#xea6f;
+                </div>
+            </div>
+        </div>
+        <div class="sige">
+            <div>
+                <img src="./images/6.png" alt="">
+                <div class="h11">三体：死神永生</div>
+            </div>
+            <div>
+                <img src="./images/7.png" alt="">
+                <div class="h11">百年孤独</div>
+            </div>
+            <div>
+                <img src="./images/8.png" alt="">
+                <div class="h11">平凡的世界</div>
+            </div>
+            <div>
+                <img src="./images/2.png" alt="">
+                <div class="h11">未来简史</div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 底部导航栏 -->
+    <div class="wdsk_dibu">
+        <div class="iconfont"><a href="home.htm">&#xe6b8;</a></div>
+        <div class="iconfont"><a id="check" href="ts1.htm">&#xe8e7;</a></div>
+        <div class="iconfont"><a href="wdsk.htm">&#xe624;</a></div>
+        <div class="iconfont"><a href="my.htm">&#xe788;</a></div>
+    </div>
+</body>
+<script>
+    let dianji = document.querySelector('#zi23');
+    let dianji2 = document.querySelector('#check1');
+    console.log(dianji);
+    console.log(dianji2);
+    dianji.onclick = function () {
+        window.location.href = "./ts1.htm";
+    }
+    dianji2.onclick = function () {
+        window.location.href = "./sz.htm";
+    }
+</script>
+
+</html>

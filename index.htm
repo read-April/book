@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/home1.css" /> -->
+	<link rel="stylesheet" href="css/ydsy.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@6/swiper-bundle.css">
+	<script src="https://unpkg.com/swiper@6/swiper-bundle.js"> </script>
+	<script src="./js/jQuery.min.js"></script>
+	<style>
+		body {
+			overflow: hidden;
+		}
+
+		.swiper-pagination>span {
+			width: 8vw;
+			height: 3vw;
+			border-radius: 2vw;
+			margin: 0 10px !important;
+		}
+
+		.swiper-pagination-bullet {
+			background-color: #b7b7b7;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="swiper-container">
+		<h1 class="header">每天为您推荐<br></h1>
+		<h1 class="header">一本好书</h1>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="first">
+					<img src="images/01load1.png">
+					<div class="title">三体：死神永生</div>
+					<p class="name">刘慈欣</p>
+				</div>
+
+			</div>
+
+			<div class="swiper-slide">
+				<div class="first">
+					<img src="images/02load2.png">
+					<div class="title">人类简史</div>
+					<p class="name">尤瓦尔·赫拉利</p>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="first">
+					<img class="mubiao_img" src="images/03load3.png">
+					<div class="title">许三观卖血记</div>
+					<p class="name">余华</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination" id="feny"></div>
+	</div>
+	<!-- <div class="login">进入</div> -->
+	<div class="login">
+		<a href="javascript:;">进入</a>
+	</div>
+
+
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			direction: 'horizontal',
+			loop: false,
+
+			// 分页器
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		})
+
+		let login = document.querySelector('.login');
+		console.log(login);
+		let login_a = document.querySelector('.login a');
+		window.onload = function () {
+			login.style.disolay = 'none';
+			console.log(2);
+		}
+
+		login.onclick = function () {
+			let myDiv = document.querySelector('.swiper-wrapper');
+			let num = myDiv.style.transform.slice(myDiv.style.transform.indexOf('(') + 1, myDiv.style.transform.indexOf('p'))
+			console.log(num);
+			if (num == -1960) {
+				login.style.disolay = 'block';
+				location.href = 'home.htm';
+			}
+		}
+
+	</script>
+</body>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/kehuan.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script src="./js/Vue.js"></script>
+    <title>设置</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <div class="header"></div>
+        <div class="top-bar">
+            <div class="iconfont" id="zi3">
+                <a href="my.htm"> &#xeb09;</a>
+            </div>
+            <div>设置</div>
+            <div class="zi22">
+                <div class="iconfont" id="zi2">
+                </div>
+                <div class="iconfont" id="zi2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="szzz">
+        <div class="wai">
+            <div class="szzz1">
+                <h2>查看账户</h2>
+                <div class="iconfont" id="zty">
+                    &#xe65f;
+                </div>
+            </div>
+            <div class="linee"></div>
+        </div>
+        <div class="wai">
+            <div class="szzz1">
+                <h2>个人资料</h2>
+                <div class="iconfont" id="zty">
+                    &#xe65f;
+                </div>
+            </div>
+            <div class="linee"></div>
+        </div>
+        <div class="wai">
+            <div class="szzz1">
+                <h2>消息提醒</h2>
+                <input type="checkbox" class="switch-button" id="switch-button" onclick="handleClick(this)" checked>
+                <label for="switch-button"></label>
+            </div>
+            <div class="linee"></div>
+        </div>
+        <div class="wai">
+            <div class="szzz1">
+                <h2>清理缓存</h2>
+                <h3>128MB</h3>
+                <div class="iconfont" id="zty">
+                    &#xe65f;
+                </div>
+            </div>
+            <div class="linee"></div>
+        </div>
+        <div class="wai">
+            <div class="szzz1">
+                <h2>帮助中心</h2>
+                <div class="iconfont" id="zty">
+                    &#xe65f;
+                </div>
+            </div>
+            <div class="linee"></div>
+        </div>
+        <div class="wai">
+            <div class="szzz1">
+                <h2>关于我们</h2>
+                <div class="iconfont" id="zty">
+                    &#xe65f;
+                </div>
+            </div>
+            <div class="linee"></div>
+        </div>
+    </div>
+    <div class="wdsk_dibu11">
+        <h1>退出登录</h1>
+    </div>
+</body>
+<script>
+    function handleClick(e) {
+        console.log(e.checked);
+    }
+    let dianji2 = document.querySelector('#zi3');
+    dianji2.onclick = function () {
+        window.location.href = "./index.htm";
+    }
+</script>
+</script>
+
+</html>
